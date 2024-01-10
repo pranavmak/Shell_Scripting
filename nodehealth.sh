@@ -20,7 +20,7 @@ echo "Print the disk space"
 df -h
 
 echo "Print the memory"
-free -g
+free -h
 
 echo "Print the CPU"
 nproc

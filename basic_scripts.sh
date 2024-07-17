@@ -26,3 +26,11 @@ head -n 10 group
 
 #print date in dd/mm/yy format
 date +%d/%m/%y
+
+#time in hh:ss
+date +%H:%S
+
+#display current month calender
+cal
+
+

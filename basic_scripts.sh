@@ -15,3 +15,7 @@ cd /tmp/autopilot
 
 # switch ur dir and and print "Hello Pranav" into text file
 cd /tmp/autopilot;echo "Hello Pranav">devops.txt
+
+#  create empty file and forcefully remove it
+touch /tmp/autopilot/devops.txt
+rm -f /tmp/autopilot/devops.txt

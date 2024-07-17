@@ -19,3 +19,9 @@ cd /tmp/autopilot;echo "Hello Pranav">devops.txt
 #  create empty file and forcefully remove it
 touch /tmp/autopilot/devops.txt
 rm -f /tmp/autopilot/devops.txt
+
+# switch ur directry and display top 10 rows of "group" file
+cd /etc 
+head -n 10 group
+
+#

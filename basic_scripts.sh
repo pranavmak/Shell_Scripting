@@ -24,4 +24,5 @@ rm -f /tmp/autopilot/devops.txt
 cd /etc 
 head -n 10 group
 
-#
+#print date in dd/mm/yy format
+date +%d/%m/%y

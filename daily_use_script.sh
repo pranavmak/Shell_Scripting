@@ -12,3 +12,6 @@ sed -i "s/Test/Hello/" devops.txt
 
 # to print second column and first 100 lines
 awk '{print $2}' /var/log/dnf.log | head -100
+
+# to print 2nd n 3rd column
+awk '{print $2,$3}' /var/log/dnf.log | head -50
